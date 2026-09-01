@@ -1,4 +1,4 @@
-package com.avishai.domain;
+package org.example.domain;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

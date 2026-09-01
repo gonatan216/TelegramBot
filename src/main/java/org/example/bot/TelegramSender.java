@@ -1,6 +1,6 @@
-package com.avishai.bot;
+package org.example.bot;
 
-import com.avishai.domain.Question;
+import org.example.domain.Question;
 import org.telegram.telegrambots.meta.api.objects.Message;
 
 public interface TelegramSender {

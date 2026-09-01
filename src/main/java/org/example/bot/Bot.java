@@ -1,10 +1,10 @@
-package com.avishai.bot;
+package org.example.bot;
 
-import com.avishai.config.Config;
-import com.avishai.domain.CommunityUser;
-import com.avishai.domain.Question;
-import com.avishai.manager.CommunityManager;
-import com.avishai.manager.SurveyManager;
+import org.example.config.Config;
+import org.example.domain.CommunityUser;
+import org.example.domain.Question;
+import org.example.manager.CommunityManager;
+import org.example.manager.SurveyManager;
 import lombok.extern.slf4j.Slf4j;
 import org.telegram.telegrambots.bots.TelegramLongPollingBot;
 import org.telegram.telegrambots.meta.api.methods.polls.SendPoll;

@@ -1,8 +1,8 @@
-package com.avishai.ui.dialogs;
+package org.example.ui.dialogs;
 
-import com.avishai.domain.Question;
-import com.avishai.domain.Survey;
-import com.avishai.ui.components.Theme;
+import org.example.domain.Question;
+import org.example.domain.Survey;
+import org.example.ui.components.Theme;
 
 import javax.swing.*;
 import java.awt.*;
@@ -23,8 +23,8 @@ public class SurveyResultsDialog extends JDialog {
         add(createSouthPanel(), BorderLayout.SOUTH);
     }
 
-    private javax.swing.JScrollPane createCenterScrollPane(Survey survey) {
-        java.util.List<javax.swing.JPanel> cards = new java.util.ArrayList<>();
+    private JScrollPane createCenterScrollPane(Survey survey) {
+        List<JPanel> cards = new java.util.ArrayList<>();
         if (survey != null && survey.getQuestions() != null) {
             for (Question q : survey.getQuestions()) cards.add(createQuestionCard(q, survey));
         }

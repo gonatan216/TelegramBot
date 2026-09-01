@@ -1,6 +1,6 @@
-package com.avishai.ui.components;
+package org.example.ui.components;
 
-import com.avishai.domain.Question;
+import org.example.domain.Question;
 import com.formdev.flatlaf.FlatDarculaLaf;
 import lombok.experimental.UtilityClass;
 

@@ -1,6 +1,6 @@
-package com.avishai.manager;
+package org.example.manager;
 
-import com.avishai.domain.Survey;
+import org.example.domain.Survey;
 
 public interface SurveyListener {
     void onSurveyScheduled(long executeTimeMillis);

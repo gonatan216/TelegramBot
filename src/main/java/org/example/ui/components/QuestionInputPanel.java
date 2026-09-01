@@ -1,6 +1,6 @@
-package com.avishai.ui.components;
+package org.example.ui.components;
 
-import com.avishai.domain.Question;
+import org.example.domain.Question;
 
 import javax.swing.*;
 import javax.swing.event.DocumentEvent;

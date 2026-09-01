@@ -1,11 +1,11 @@
-package com.avishai;
+package org.example;
 
-import com.avishai.bot.Bot;
-import com.avishai.config.Config;
-import com.avishai.manager.CommunityManager;
-import com.avishai.manager.SurveyManager;
-import com.avishai.ui.Window;
-import com.avishai.ui.components.Theme;
+import org.example.bot.Bot;
+import org.example.config.Config;
+import org.example.manager.CommunityManager;
+import org.example.manager.SurveyManager;
+import org.example.ui.Window;
+import org.example.ui.components.Theme;
 import lombok.extern.slf4j.Slf4j;
 import org.telegram.telegrambots.meta.TelegramBotsApi;
 import org.telegram.telegrambots.meta.exceptions.TelegramApiException;

@@ -1,10 +1,10 @@
-package com.avishai.ui;
+package org.example.ui;
 
-import com.avishai.manager.GlobalStatusManager;
-import com.avishai.ui.panels.ActiveSurveyPanel;
-import com.avishai.ui.panels.CommunityPanel;
-import com.avishai.ui.panels.CreateSurveyPanel;
-import com.avishai.ui.panels.HistoryPanel;
+import org.example.manager.GlobalStatusManager;
+import org.example.ui.panels.ActiveSurveyPanel;
+import org.example.ui.panels.CommunityPanel;
+import org.example.ui.panels.CreateSurveyPanel;
+import org.example.ui.panels.HistoryPanel;
 
 import javax.swing.*;
 import java.awt.*;

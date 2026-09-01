@@ -1,6 +1,6 @@
-package com.avishai.manager;
+package org.example.manager;
 
-import com.avishai.ui.components.Theme;
+import org.example.ui.components.Theme;
 
 import javax.swing.*;
 import java.awt.*;

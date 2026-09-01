@@ -1,15 +1,15 @@
-package com.avishai.ui.panels;
+package org.example.ui.panels;
 
-import com.avishai.config.Config;
-import com.avishai.domain.Question;
-import com.avishai.domain.Survey;
-import com.avishai.manager.CommunityManager;
-import com.avishai.manager.GlobalStatusManager;
-import com.avishai.manager.SurveyManager;
-import com.avishai.service.ChatGPTService;
-import com.avishai.ui.components.BasePanel;
-import com.avishai.ui.components.QuestionInputPanel;
-import com.avishai.ui.components.Theme;
+import org.example.config.Config;
+import org.example.domain.Question;
+import org.example.domain.Survey;
+import org.example.manager.CommunityManager;
+import org.example.manager.GlobalStatusManager;
+import org.example.manager.SurveyManager;
+import org.example.service.ChatGPTService;
+import org.example.ui.components.BasePanel;
+import org.example.ui.components.QuestionInputPanel;
+import org.example.ui.components.Theme;
 
 import javax.swing.*;
 import java.awt.*;

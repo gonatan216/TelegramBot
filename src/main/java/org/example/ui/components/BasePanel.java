@@ -1,4 +1,4 @@
-package com.avishai.ui.components;
+package org.example.ui.components;
 
 import javax.swing.*;
 import java.awt.*;

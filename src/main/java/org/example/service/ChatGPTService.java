@@ -1,7 +1,7 @@
-package com.avishai.service;
+package org.example.service;
 
-import com.avishai.config.Config;
-import com.avishai.domain.Question;
+import org.example.config.Config;
+import org.example.domain.Question;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.google.gson.Strictness;
@@ -86,17 +86,17 @@ public class ChatGPTService {
                 log.warn("OpenAI API failed, falling back to mock data. Reason: {}", e.getMessage());
                 Question q1 = Question.builder()
                         .text("What is the most interesting aspect of " + topic + "?")
-                        .options(java.util.List.of("Theory", "Practice", "History", "Other"))
+                        .options(List.of("Theory", "Practice", "History", "Other"))
                         .build();
                 Question q2 = Question.builder()
                         .text("How well do you understand " + topic + "?")
-                        .options(java.util.List.of("Very well", "Somewhat", "Beginner", "Not at all"))
+                        .options(List.of("Very well", "Somewhat", "Beginner", "Not at all"))
                         .build();
                 Question q3 = Question.builder()
                         .text("Would you recommend learning about " + topic + "?")
-                        .options(java.util.List.of("Yes, definitely", "Maybe", "Probably not", "No"))
+                        .options(List.of("Yes, definitely", "Maybe", "Probably not", "No"))
                         .build();
-                return java.util.List.of(q1, q2, q3);
+                return List.of(q1, q2, q3);
             }
         });
     }

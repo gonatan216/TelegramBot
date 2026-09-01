@@ -1,10 +1,10 @@
-package com.avishai.manager;
+package org.example.manager;
 
-import com.avishai.bot.TelegramSender;
-import com.avishai.domain.CommunityUser;
-import com.avishai.domain.Question;
-import com.avishai.domain.Survey;
-import com.avishai.domain.SurveyParticipant;
+import org.example.bot.TelegramSender;
+import org.example.domain.CommunityUser;
+import org.example.domain.Question;
+import org.example.domain.Survey;
+import org.example.domain.SurveyParticipant;
 import lombok.Getter;
 import lombok.Setter;
 import org.slf4j.Logger;

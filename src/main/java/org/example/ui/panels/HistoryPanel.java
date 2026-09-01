@@ -1,12 +1,12 @@
-package com.avishai.ui.panels;
+package org.example.ui.panels;
 
-import com.avishai.domain.Survey;
-import com.avishai.domain.SurveyParticipant;
-import com.avishai.manager.SurveyListener;
-import com.avishai.manager.SurveyManager;
-import com.avishai.ui.components.BasePanel;
-import com.avishai.ui.components.Theme;
-import com.avishai.ui.dialogs.SurveyResultsDialog;
+import org.example.domain.Survey;
+import org.example.domain.SurveyParticipant;
+import org.example.manager.SurveyListener;
+import org.example.manager.SurveyManager;
+import org.example.ui.components.BasePanel;
+import org.example.ui.components.Theme;
+import org.example.ui.dialogs.SurveyResultsDialog;
 
 import javax.swing.*;
 import java.awt.*;

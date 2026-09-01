@@ -1,9 +1,9 @@
-package com.avishai.ui.panels;
+package org.example.ui.panels;
 
-import com.avishai.domain.CommunityUser;
-import com.avishai.manager.CommunityListener;
-import com.avishai.manager.CommunityManager;
-import com.avishai.ui.components.BasePanel;
+import org.example.domain.CommunityUser;
+import org.example.manager.CommunityListener;
+import org.example.manager.CommunityManager;
+import org.example.ui.components.BasePanel;
 
 import javax.swing.*;
 import javax.swing.table.DefaultTableModel;

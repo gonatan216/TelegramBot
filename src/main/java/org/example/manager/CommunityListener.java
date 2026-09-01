@@ -1,6 +1,6 @@
-package com.avishai.manager;
+package org.example.manager;
 
-import com.avishai.domain.CommunityUser;
+import org.example.domain.CommunityUser;
 
 public interface CommunityListener {
     void onUserJoined(CommunityUser user, int totalCommunitySize);

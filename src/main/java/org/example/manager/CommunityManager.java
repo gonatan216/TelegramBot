@@ -1,7 +1,7 @@
-package com.avishai.manager;
+package org.example.manager;
 
-import com.avishai.bot.TelegramSender;
-import com.avishai.domain.CommunityUser;
+import org.example.bot.TelegramSender;
+import org.example.domain.CommunityUser;
 import lombok.Setter;
 
 import java.util.Collection;
